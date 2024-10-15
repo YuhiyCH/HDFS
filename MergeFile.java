@@ -62,8 +62,8 @@ public class MergeFile {
         MergeFile merge = new MergeFile(
                 "/user/root/data",
                 "/user/root/output.txt");
-//输入目录"/user/root/data"
-//输出目录"/user/root/output.txt"
+//输入目标文件目录"/user/root/data"
+//输出除了.abc后缀名的文件内容到txt文件下"/user/root/output.txt"
         merge.doMerge();
     }
 }
