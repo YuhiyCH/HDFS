@@ -2,7 +2,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.Path;
-public class writefile {
+public class WriteFile {
     public static void main(String[] args) {
         try {
             Configuration conf = new Configuration();
