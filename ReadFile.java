@@ -5,7 +5,7 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.fs.FSDataInputStream;
 
-public class readfile {
+public class ReadFile {
     public static void main(String[] args) {
         try {
             Configuration conf = new Configuration();
